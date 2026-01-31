@@ -1,0 +1,40 @@
+box model
+
+#box1{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: 10px solid black;
+    background-color: brown; 
+    border-radius: 50%;
+}
+#box1:hover{
+    background-color: blueviolet;
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: 10px solid black;
+    background-color: rgb(42, 165, 151); 
+    border-top-right-radius: 50% ;
+    border-bottom-right-radius: 50%;
+} 
+#box2:hover{
+    background-color: purple;
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 20px;
+    border: 10px solid black;
+    background-color: rgb(42, 165, 151); 
+    border-top-left-radius: 50% ;
+    border-bottom-left-radius: 50%;
+} 
+#box3:hover{
+    background-color: purple;
+}
